@@ -34,10 +34,17 @@ The application connects to a PostgreSQL database and generates two reports with
 
 ## AI-Assisted Development
 
-### Example Prompts
+### AI Tool Used
+ChatGPT was used as an AI assistant to support the development of the application.
+
+### Main Prompts
 - “Create a minimal Streamlit app that connects to a PostgreSQL database pagila_dwh and queries the view vw_rental_analysis.”
-- “Write an SQL query that groups the rental data by film category and returns total rentals as a pandas DataFrame.”
+- “Write an SQL query that groups rental data by film category and returns total rentals as a pandas DataFrame.”
 - “Create two charts in Streamlit: a bar chart for rentals by category and a line chart for monthly rental trends.”
+
+### What Worked Well / What Was Challenging
+Using AI worked well for quickly generating SQL queries and Streamlit visualization code.
+The main challenges were environment setup and configuring GitHub authentication, which required several iterations to resolve.
 
 ---
 
